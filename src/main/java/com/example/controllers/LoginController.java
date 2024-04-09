@@ -35,7 +35,7 @@ public class LoginController {
       return "redirect:/main";
     }
 
-    model.addAttribute("message", "Login failed!");
+    model.addAttribute("messag  e", "Login failed!");
     return "login.html";
   }
 }
